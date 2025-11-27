@@ -31,6 +31,7 @@ export default function HeaderStatus() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#000',
+    width: 500,
   },
   inner: {
     flexDirection: 'row',
@@ -38,6 +39,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 16,
     paddingBottom: 6,
+    paddingTop: 20
   },
   time: {
     fontSize: 16,

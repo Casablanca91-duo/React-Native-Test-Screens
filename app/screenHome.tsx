@@ -76,7 +76,7 @@ export default function ScreenHome() {
         <View style={styles.progressBar}>
           <ImageBackground
             source={require('../assets/images/progress-texture.png')}
-            style={[styles.progressFill, { width: '70%' }]}
+            style={[styles.progressFill, { width: '100%' }]}
             resizeMode="stretch"
           />
         </View>
@@ -140,7 +140,7 @@ export default function ScreenHome() {
 
 const styles = StyleSheet.create({
   container: {  
-    backgroundColor: '#000' 
+    backgroundColor: '#000', 
   },
   header: { 
     flexDirection: 'row', 

@@ -15,7 +15,6 @@ export default function ScreenConf() {
   return (
     <ScrollView
       contentContainerStyle={{ 
-        paddingBottom: 80,
         backgroundColor: '#000', 
         paddingHorizontal: 16,
         flexGrow: 1, 
@@ -111,6 +110,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#000',
     padding: 16,
+    
   },
   scrollContent: {
     paddingBottom: 120,
@@ -128,6 +128,7 @@ const styles = StyleSheet.create({
   },
   filterTabs: {
     flexDirection: 'row',
+    justifyContent: 'space-around',
     paddingVertical: 8,
     borderBottomWidth: 1,
     borderBottomColor: '#333',
